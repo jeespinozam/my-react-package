@@ -1,5 +1,5 @@
 {
-  "name": "neptune-payment-elements",
+  "name": "my-react-package",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/cjs/index.js",
@@ -24,7 +24,7 @@
   "keywords": [
     "react",
     "typescript",
-    "neptune-payment-elements"
+    "my-react-package"
   ],
   "repository": {
     "type": "git",
