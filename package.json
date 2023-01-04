@@ -1,0 +1,50 @@
+{
+  "name": "neptune-payment-elements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn clean && yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "prepublishOnly": "yarn build",
+    "prettier": "prettier --write \"src/**/*.{js,ts,tsx,css}\""
+  },
+  "author": "Jorge Espinoza",
+  "license": "ISC",
+  "files": [
+    "build/",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "neptune-payment-elements"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neptune-Payments/neptune-payments-elements"
+  },
+  "bugs": {
+    "url": "https://github.com/Neptune-Payments/neptune-payments-elements/issues",
+    "email": "jorge@capicua.com.uy"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@webpack-cli/generators": "^3.0.1",
+    "prettier": "^2.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "terser-webpack-plugin": "^5.3.6",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
