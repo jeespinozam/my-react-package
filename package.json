@@ -1,5 +1,5 @@
 {
-  "name": "my-react-package",
+  "name": "my-react-package-jorge",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/cjs/index.js",
@@ -24,7 +24,7 @@
   "keywords": [
     "react",
     "typescript",
-    "my-react-package"
+    "my-react-package-jorge"
   ],
   "repository": {
     "type": "git",
