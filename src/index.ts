@@ -1,3 +1,4 @@
-import MyCounter from './App'
+import MyCounter from './pages/MyCounter/MyCounter'
+import NeptunePaymentElement from './pages/Payment/NeptunePaymentElement'
 
-export { MyCounter }
+export { MyCounter, NeptunePaymentElement }
